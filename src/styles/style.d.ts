@@ -1,7 +1,7 @@
-// styled.d.ts
-import 'styled-components';
-import type { Theme } from '@types'; // adjust path as needed
+ import 'styled-components';
+import type { Theme } from '@/types';
 
 declare module 'styled-components' {
-  export type DefaultTheme = Theme
+  // eslint-disable-next-line @typescript-eslint/no-empty-object-type
+  export interface DefaultTheme extends Theme {}
 }

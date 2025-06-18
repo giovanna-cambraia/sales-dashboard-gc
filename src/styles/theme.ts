@@ -33,6 +33,7 @@ export const lightTheme: Theme = {
     disabledBorderColor: '#E0E0E0',
     disabledColor: '#666',
     placeholderColor: '#666',
+    placeholder: undefined
   },
   typographies: {
     error: '#FF0202',
@@ -73,6 +74,7 @@ export const darkTheme: Theme = {
     disabledBorderColor: '#2E3F55',
     disabledColor: '#58677C',
     placeholderColor: '#89A7CE',
+    placeholder: undefined
   },
   typographies: {
     error: '#FF0202',
