@@ -23,6 +23,7 @@ export interface Theme {
         warning: string
     }
     textInput: {
+        placeholder: Interpolation<Substitute<DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>, InputProps>>
         active: string
         activeColor: string
         borderColor: string
