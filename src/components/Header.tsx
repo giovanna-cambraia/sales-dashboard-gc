@@ -5,8 +5,8 @@ import { Avatar, Box, Container } from '@mui/material'
 import { pxToRem } from '@/utils'
 
 const StyledHeader = styled.header`
-  background-image: ${(props) => props.theme.appBackground}
-  border-bottom: ${pxToRem(1)} solid ${(props) => props.theme.appDefaultStroke}
+  background-image: ${(props) => props.theme.appBackground};
+  border-bottom: ${pxToRem(1)} solid ${(props) => props.theme.appDefaultStroke};
   margin-bottom: ${pxToRem(37)};
   width: 100%;
 `
