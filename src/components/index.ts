@@ -1,5 +1,6 @@
 export * from './BannerImage'
 export { default as FormComponent } from './FormComponent'
+export { default as CustomChart } from './CustomChart'
 export { default as Header } from './Header'
 export { default as AvatarList } from './AvatarList'
 export { default as CustomTable } from './CustomTable'
