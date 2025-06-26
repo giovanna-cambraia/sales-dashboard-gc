@@ -7,7 +7,8 @@ function App() {
     const checkAuthCookie = Cookies.get('Authorization')
     if (!checkAuthCookie) {
       alert ('Autenticação necessária!')
-    } return <Navigate to='/' replace />
+      return <Navigate to='/' replace />
+    } 
  
     return <Outlet />
   }

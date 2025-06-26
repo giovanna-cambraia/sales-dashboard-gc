@@ -66,7 +66,7 @@ function Login() {
         secure: true,
       })
     }
-    if (Cookies.get('Authorization')) navigate('./home')
+    if (Cookies.get('Authorization')) navigate('/home')
   }, [data, navigate])
 
   return (
