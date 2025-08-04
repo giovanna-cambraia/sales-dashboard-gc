@@ -1,3 +1,4 @@
+// COMPONENTS
 import {
   AvatarList,
   CardComponent,
@@ -20,7 +21,7 @@ import Grid from '@mui/material/Grid'
 // UTILS
 import { currencyConverter, highlightTextConverter } from '@/utils'
 
-// TYPES
+
 // TYPES
 import type {
   CustomChartProps,
