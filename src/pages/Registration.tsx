@@ -87,6 +87,7 @@ function Registration() {
         `Não foi possível realizar a operação. Entre em contato com o suporte (${error}).`
       )
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, error, navigate])
 
   return (
