@@ -177,6 +177,7 @@ function Home() {
                     ? 'skeleton-loading skeleton-loading-mh-2'
                     : ''
                 }
+                id="sales-stars"
               >
                 {!salesStarsLoading && salesStarsData && (
                   <>
@@ -203,6 +204,7 @@ function Home() {
                 className={
                   newsLoading ? 'skeleton-loading skeleton-loading-mh-2' : ''
                 }
+                id="news"
               >
                 {!newsLoading && newsData && (
                   <>
@@ -236,7 +238,7 @@ function Home() {
                     ? 'skeleton-loading skeleton-loading-mh-2'
                     : ''
                 }
-                id="month-sales-chart"
+                id="year-sales-chart"
               >
                 {!salesStarsLoading && salesYearData && (
                   <>
